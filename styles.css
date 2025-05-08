@@ -68,3 +68,75 @@ button{
     border-radius: 1rem;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 450px){
+    body{
+        width: 100%;
+    }
+
+    .title-container{
+        margin: 2rem auto;
+        text-align: center;
+        background-color: rgb(252, 186, 64);
+        color: #1e1e1e;
+        width: fit-content;
+        padding: 1.2rem;
+        border: 1px solid white;
+        border-radius: 0.8rem;
+    }
+    
+    .title-container h1{
+        font-size: 1rem;
+        color: darkblue;
+    }
+    
+    .color-generation-container{
+        width: 70%;
+        height: auto;
+        background-color: #f8f8f8;
+        margin: 0 auto;
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    
+    .color-box{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    
+    .first-color-box{
+        background-color: #e3e3e3;
+        padding: 2rem 3rem;
+    }
+    
+    .second-color-box{
+        background-color: #e3e3e3;
+        padding: 2rem 3rem;
+    }
+    
+    .third-color-box{
+        background-color: #e3e3e3;
+        padding: 2rem 3rem;
+    }
+    
+    button{
+        background-color: darkblue;
+        color: white;
+        padding: 1rem 2rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 0.8rem;
+        font-size: 1rem;
+    }
+
+}
